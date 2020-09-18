@@ -7,11 +7,10 @@ function Home() {
       <div className="home_container">
         <div className="home__title">
           <p>
-            <h1>Hey, I am Nixon ;)</h1>
+            <h1>Hey, I am Nixon 👋</h1>
             <br />
             <br />
-            <br />
-            was a hardware developer, now studying for my masters
+            was a hardware engineer, starting my masters in 2021
           </p>
         </div>
       </div>

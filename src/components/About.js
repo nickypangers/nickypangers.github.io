@@ -35,6 +35,10 @@ function About() {
             1500,
           ]}
         />
+        <br />
+        <br />
+        Aside from work, I enjoy a bit of gaming as well travelling locally and
+        abroad.
       </p>
     </div>
   );

@@ -15,9 +15,10 @@ function About() {
         After studying abroad in the UK for 8 years, I graduated from the
         University of Leeds with a 2:1 classification in{" "}
         <strong>BEng Electronic and Electrical Engineering</strong> in Jul 2019.
+        I have decided to take a year off from studying to gain some work
+        experiences, my position of hardware engineer in Hong Kong.
         <br />
         <br />
-        {/* To implement typing animation for skills */}
         My skills include:{" "}
         <Typical
           loop={Infinity}

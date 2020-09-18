@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function Navbar() {
   return (
@@ -13,9 +14,15 @@ function Navbar() {
         <div className="navbar__button">Resume</div>
       </div>
       <div className="navbar__social">
-        <div className="navbar__text">
-          <p>Gimme a cheeky lil stalk at</p>
-        </div>
+        <a
+          href="https://linkedin.com/in/nixon-pang"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="navbar__link">
+            <LinkedInIcon fontSize="large" />
+          </div>
+        </a>
         <a
           href="https://instagram.com/nickypangers"
           target="_blank"
@@ -25,7 +32,6 @@ function Navbar() {
             <InstagramIcon fontSize="large" />
           </div>
         </a>
-        <div className="navbar__text">or</div>
         <a
           href="https://github.com/nickypangers"
           target="_blank"

@@ -30,16 +30,28 @@ function About() {
             1500,
             "Golang",
             1500,
-            "React JS",
-            1500,
-            "HTML/CSS",
-            1500,
+            // "React JS",
+            // 1500,
+            // "HTML/CSS",
+            // 1500,
           ]}
         />
         <br />
         <br />
-        Aside from work, I enjoy a bit of gaming as well travelling locally and
-        abroad.
+        There are, also, technologies that I am planning on / hope to learn in
+        the near future. You can see the list{" "}
+        <a
+          href="http://nickypangers.github.io/simple-todo-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        .
+        <br />
+        <br />
+        When I'm not working, I enjoy a bit of gaming as well travelling locally
+        and abroad.
       </p>
     </div>
   );

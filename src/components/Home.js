@@ -7,7 +7,9 @@ function Home() {
       <div className="home_container">
         <div className="home__title">
           <p>
-            <h1>Hey, I am Nixon 👋</h1>
+            <h1>
+              Hey, I am Nixon <span role="img">👋</span>
+            </h1>
             <br />
             <br />
             was a hardware engineer, starting my masters in 2021

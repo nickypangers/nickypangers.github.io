@@ -1,0 +1,29 @@
+.projectItem {
+  text-align: center;
+  /* background-color: blue; */
+  margin: 20px 0;
+  position: relative;
+}
+
+.projectItem > img {
+  width: inherit;
+  height: 200px;
+}
+
+.projectItem__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.projectItem__content > h2 {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.projectItem__content > p {
+  font-size: 22px;
+}

@@ -11,10 +11,11 @@
   border-bottom: 1px solid lightgrey;
 }
 
-.home__title > p > h1 {
+.home__title > h1 {
   font-weight: 700;
   /* font-size: 50px; */
   line-height: 60px;
+  font-size: 50px;
 }
 
 .home__title > p {

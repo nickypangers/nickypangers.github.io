@@ -30,10 +30,10 @@ function About() {
             1500,
             "Golang",
             1500,
-            // "React JS",
-            // 1500,
-            // "HTML/CSS",
-            // 1500,
+            "React JS",
+            1500,
+            "HTML/CSS",
+            1500,
           ]}
         />
         <br />

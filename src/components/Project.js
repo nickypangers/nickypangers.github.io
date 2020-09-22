@@ -20,25 +20,31 @@ function Project() {
       </p>
       <div className="project__content">
         <div className="project__row">
+          <a
+            href="https://amaoz-9dee4.web.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ProjectItem
+              projectName="Amazon Clone"
+              desc="React"
+              image={require("../assets/images/amazon_clone_bg.png")}
+            />
+          </a>
           <ProjectItem
             projectName="Testing"
-            desc="App"
-            image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            desc="Go"
+            image={require("../assets/images/imageedit_1_9208243330.png")}
           />
           <ProjectItem
             projectName="Testing"
             desc="Go"
-            image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            image={require("../assets/images/imageedit_1_9208243330.png")}
           />
           <ProjectItem
             projectName="Testing"
             desc="Go"
-            image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          />
-          <ProjectItem
-            projectName="Testing"
-            desc="Go"
-            image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            image={require("../assets/images/imageedit_1_9208243330.png")}
           />
         </div>
       </div>

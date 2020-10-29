@@ -1,0 +1,96 @@
+.about {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff2f2;
+  color: #566573;
+  font-family: "Nunito", sans-serif;
+}
+
+.about__content {
+  display: flex;
+  margin: 0 50px;
+}
+
+.about__right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__left {
+  width: 40%;
+  display: flex;
+}
+
+.about__left > img {
+  max-height: 70%;
+}
+
+.about__quote {
+  margin: 15px 0;
+  display: flex;
+}
+
+.about__indent {
+  background-color: #01d1c1;
+  width: 5px;
+  margin-right: 15px;
+}
+
+.about__details {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__name, .about__phone {
+  font-family: 'Rufina', serif;
+  font-size: 16px;
+  color: #031532;
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+.about__nameIcon {
+  color: white;
+  background-color: #ff6665;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.about__phoneIcon {
+  color: white;
+  background-color: #01d1c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.about__email {
+  margin-top: 10px;
+  font-family: 'Rufina', serif;
+  color: #031532;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.about__email > h3, .about__phone > h3, .about__name > h3 {
+  margin-left: 10px;
+}
+
+.about__emailIcon {
+  color: white;
+  background-color: #031532;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 50%;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated as a } from "react-spring";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import "./LearnMoreButton.css";
 
@@ -19,12 +19,12 @@ function LearnMoreButton() {
       onMouseEnter={() => toggle(true)}
       onMouseLeave={() => toggle(false)}
     >
-      <animated.div className="fill" style={slide}>
-        <animated.div className="content">
+      <a.div className="fill" style={slide}>
+        <a.div className="content">
           <ArrowForwardIcon fontSize="small" className="icon" />
           Learn More
-        </animated.div>
-      </animated.div>
+        </a.div>
+      </a.div>
     </div>
   );
 }

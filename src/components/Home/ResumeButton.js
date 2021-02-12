@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated as a } from "react-spring";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 import Resume from "../../assets/Chun-Nixon-Pang-Resume.pdf";
 import "./ResumeButton.css";
@@ -15,18 +15,18 @@ function ResumeButton() {
   });
 
   return (
-    <a href={Resume}>
+    <a href={Resume} target="_blank" rel="noopener noreferrer">
       <div
         className="resumeButton"
         onMouseEnter={() => toggle(true)}
         onMouseLeave={() => toggle(false)}
       >
-        <animated.div className="fill" style={slide}>
-          <animated.div className="content">
+        <a.div className="fill" style={slide}>
+          <a.div className="content">
             <CloudDownloadIcon fontSize="small" className="icon" />
             Read Resumé
-          </animated.div>
-        </animated.div>
+          </a.div>
+        </a.div>
       </div>
     </a>
   );

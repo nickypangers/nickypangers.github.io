@@ -1,14 +1,9 @@
 .about {
-  width: 100%;
-  height: 50vh;
+  /* width: 100%;
+  height: 50vh; */
   background-color: #fff2f2;
   color: #566573;
   font-family: "Nunito", sans-serif;
-}
-
-.about__content {
-  display: flex;
-  margin: 0 50px;
 }
 
 .about__right {
@@ -17,13 +12,25 @@
   flex-direction: column;
 }
 
-.about__left {
+/* .about__left {
   width: 40%;
   display: flex;
+} */
+
+.about__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
-.about__left > img {
-  max-height: 70%;
+.about__image > img {
+  object-fit: cover;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  /* border: 1px solid #a1acb3; */
 }
 
 .about__quote {
@@ -43,8 +50,9 @@
   justify-content: space-between;
 }
 
-.about__name, .about__phone {
-  font-family: 'Rufina', serif;
+.about__name,
+.about__phone {
+  font-family: "Rufina", serif;
   font-size: 16px;
   color: #031532;
   width: 48%;
@@ -52,37 +60,37 @@
   align-items: center;
 }
 
-.about__nameIcon {
+.about__icon {
   color: white;
-  background-color: #ff6665;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
-.about__phoneIcon {
-  color: white;
+.about__nameIcon,
+.about__linkedIn {
+  background-color: #ff6665;
+}
+
+.about__phoneIcon,
+.about__github {
   background-color: #01d1c1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  border-radius: 50%;
+}
+
+.about__instagram {
+  background-color: #566573;
 }
 
 .about__email {
   margin-top: 10px;
-  font-family: 'Rufina', serif;
+  font-family: "Rufina", serif;
   color: #031532;
   display: flex;
   align-items: center;
   width: 70%;
-}
-
-.about__email > h3, .about__phone > h3, .about__name > h3 {
-  margin-left: 10px;
 }
 
 .about__emailIcon {

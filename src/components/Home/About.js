@@ -1,10 +1,11 @@
 import React from "react";
 import "./About.css";
-import PersonIcon from "@material-ui/icons/Person";
-import PhoneIcon from "@material-ui/icons/Phone";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
-import { useSpring, animated } from "react-spring";
-import ProfilePicture from "../../assets/profile-pic.png";
+import { useSpring, animated as a } from "react-spring";
+import ProfilePicture from "../../assets/profile-pic-bg.png";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 function About() {
   const fade = useSpring({
@@ -12,21 +13,25 @@ function About() {
     to: { opacity: 1 },
     config: { duration: 1500 },
   });
+
   return (
-    <div className="about" id="about">
-      <animated.div className="about__content" style={fade}>
-        <div className="about__left">
-          {/* <img src={ProfilePicture} alt="Profile"/> */}
-          <h1>MUCH WOW
-            
-          </h1>
+    <div className="about w-100 h-50" id="about">
+      <a.div
+        className="about__content d-flex flex-lg-row flex-column mt-5"
+        style={fade}
+      >
+        <div className="about__left col-lg-4 col-12">
+          <div className="about__image">
+            <img src={ProfilePicture} alt="Profile" />
+          </div>
+          {/* <h1>MUCH WOW</h1> */}
         </div>
-        <div className="about__right">
-          <p className="subh1">About Me</p>
+        <div className="about__right col-lg-8 col-12">
+          <p className="subh1 mt-4">About Me</p>
           <h2>Independent and Self-Motivated</h2>
           <div className="about__quote">
             <div className="about__indent"></div>
-            <p>
+            <p className="m-0 py-2">
               BEng Electronic and Electrical Engineering graduate from the
               University of Leeds
             </p>
@@ -39,27 +44,41 @@ function About() {
             technologies such as C, HTML, CSS, Javascript and more.
           </p>
           <div className="about__details">
-            <div className="about__name">
-              <div className="about__nameIcon">
-                <PersonIcon fontSize="medium" />
+            <a
+              href="https://www.linkedin.com/in/nixon-pang/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div className="about__linkedIn about__icon">
+                <LinkedInIcon fontSize="medium" />
               </div>
-              <h3>Chun Nixon Pang</h3>
-            </div>
-            <div className="about__phone">
-              <div className="about__phoneIcon">
-                <PhoneIcon fontSize="medium" />
+            </a>
+            <a
+              href="http://github.com/nickypangers"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div className="about__github about__icon">
+                <GitHubIcon fontSize="medium" />
               </div>
-              <h3>+852 9150 5123</h3>
-            </div>
-          </div>
-          <div className="about__email">
-            <div className="about__emailIcon">
-              <AlternateEmailIcon fontSize="medium" />
-            </div>
-            <h3>nixonpang98@gmail.com</h3>
+            </a>
+            <a
+              href="http://instagram.com/nickypangers"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div className="about__instagram about__icon">
+                <InstagramIcon fontSize="medium" />
+              </div>
+            </a>
+            <a href="mailto:nixonpang98@gmail.com">
+              <div className="about__emailIcon about__icon">
+                <AlternateEmailIcon fontSize="medium" />
+              </div>
+            </a>
           </div>
         </div>
-      </animated.div>
+      </a.div>
     </div>
   );
 }

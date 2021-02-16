@@ -6,6 +6,7 @@ import ProfilePicture from "../../assets/profile-pic-bg.png";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import LazyLoad from "react-lazyload";
 
 function About() {
   const fade = useSpring({
@@ -22,9 +23,13 @@ function About() {
       >
         <div className="about__left col-lg-4 col-12">
           <div className="about__image">
-            <img src={ProfilePicture} alt="Profile" />
+            <img
+              src={ProfilePicture}
+              alt="Profile"
+              width="275px"
+              height="275px"
+            />
           </div>
-          {/* <h1>MUCH WOW</h1> */}
         </div>
         <div className="about__right col-lg-8 col-12">
           <p className="subh1 mt-4">About Me</p>

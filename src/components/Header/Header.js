@@ -6,7 +6,13 @@ function Header() {
   return (
     <div className="header w-100 d-flex flex-lg-row flex-column align-items-center p-3">
       <div className="header__title col-lg-3 col-12 d-flex justify-content-lg-start justify-content-center">
-        Nixon Pang
+        <Link
+          to="/"
+          style={{ textDecoration: "none" }}
+          className="header__title_link"
+        >
+          Nixon Pang
+        </Link>
       </div>
       <div className="header__nav d-flex flex-lg-row flex-column col-lg-9 col-12 justify-content-lg-between align-items-center">
         <Link

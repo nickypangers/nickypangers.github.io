@@ -1,23 +1,23 @@
 .learnMoreButton {
-    width: 150px;
-    height: 35px;
-    color: #031532;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    background-color:  #01d1c1;
-    font-weight: bold;
+  width: 150px;
+  height: 35px;
+  color: #031532;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  background-color: #01d1c1 !important;
+  font-weight: bold;
 }
 
 .learnMoreButton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .fill {
-    position: relative;
+  position: relative;
 }
 
 .content {
-    width: 150px;
-    height: 35px;
-    position: absolute;
+  width: 150px;
+  height: 35px;
+  position: absolute;
 }

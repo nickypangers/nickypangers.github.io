@@ -8,12 +8,17 @@
   font-family: "Nunito", san-serif;
 }
 
-/*
-.header__title {
+.header__title_link {
   font-weight: bold;
   text-transform: uppercase;
+  color: black;
 }
 
+.header__title_link:hover {
+  color: black;
+}
+
+/*
 .header__nav {
   display: flex;
   flex: 1;

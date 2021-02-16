@@ -1,30 +1,30 @@
 .resumeButton {
-    width: 150px;
-    height: 35px;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    background-color: #ff6665;
-    font-weight: bold;
+  width: 150px;
+  height: 35px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  background-color: #ff6665 !important;
+  font-weight: bold;
 }
 
 .resumeButton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .fill {
-    position: relative;
+  position: relative;
 }
 
 .content {
-    width: 150px;
-    height: 35px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 150px;
+  height: 35px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content > .icon {
-    margin-right: 5px;
+  margin-right: 5px;
 }
